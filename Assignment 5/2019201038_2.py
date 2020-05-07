@@ -56,7 +56,6 @@ elif start ==None and end ==None:
                 disk_variable[i[1]]=int(i[2])
 elif start !=None and end !=None:
     inst=inst[start:]
-    inst.reverse()
     inst=inst[1:-1]
     for i in inst:
         if 'COMMIT' in i:
